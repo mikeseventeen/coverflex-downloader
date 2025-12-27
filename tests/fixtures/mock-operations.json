@@ -1,0 +1,131 @@
+{
+  "operations": {
+    "list": [
+      {
+        "id": "695ea81c-da44-4f5b-a0d9-4039c7a7a4b8",
+        "status": "confirmed",
+        "type": "benefit_expense",
+        "amount": {
+          "currency": "EUR",
+          "amount": 1200
+        },
+        "is_debit": true,
+        "executed_at": "2025-12-21T14:22:05Z",
+        "description_params": [
+          {
+            "key": "merchant_name",
+            "value": "Example Gym Center"
+          }
+        ],
+        "description_tag": "operations.benefit_expense_label",
+        "voucher": {
+          "count": 1,
+          "amount": {
+            "currency": "EUR",
+            "amount": 1200
+          }
+        },
+        "merchant_name": "Example Gym Center",
+        "product_slug": "recreation-voucher-card",
+        "category_slug": "recreation"
+      },
+      {
+        "id": "2f326a6f-94d2-486a-a0cf-904d5aff52cd",
+        "status": "rejected",
+        "type": "benefit_expense",
+        "amount": {
+          "currency": "EUR",
+          "amount": 4900
+        },
+        "is_debit": true,
+        "executed_at": "2025-10-21T13:18:35Z",
+        "description_params": [
+          {
+            "key": "rejection_reason",
+            "value": "insufficient_funds"
+          },
+          {
+            "key": "merchant_name",
+            "value": "Example Health Clinic"
+          }
+        ],
+        "description_tag": "operations.benefit_expense_label",
+        "voucher": {
+          "count": 1,
+          "amount": {
+            "currency": "EUR",
+            "amount": 4900
+          }
+        },
+        "merchant_name": "Example Health Clinic",
+        "product_slug": "recreation-voucher-card",
+        "category_slug": "recreation"
+      },
+      {
+        "id": "5e08413a-f894-45f3-b0f9-f01d9ad72e34",
+        "status": "confirmed",
+        "type": "topup",
+        "amount": {
+          "currency": "EUR",
+          "amount": 20000
+        },
+        "is_debit": false,
+        "executed_at": "2025-06-12T08:56:53Z",
+        "description_params": [],
+        "description_tag": "operations.topup_benefits_label"
+      },
+      {
+        "id": "96c10ac6-e5c5-4b31-819e-f5d62c046afd",
+        "status": "confirmed",
+        "type": "refund",
+        "amount": {
+          "currency": "EUR",
+          "amount": 2500
+        },
+        "is_debit": false,
+        "executed_at": "2025-03-21T09:46:27Z",
+        "description_params": [
+          {
+            "key": "merchant_name",
+            "value": "Example Barbershop"
+          }
+        ],
+        "description_tag": "operations.refund_label",
+        "product_slug": "fringe-voucher-card",
+        "category_slug": "fringe"
+      },
+      {
+        "id": "30f2edbd-4efd-4af6-ba0b-2d386be1da8c",
+        "status": "confirmed",
+        "type": "benefit_expense",
+        "amount": {
+          "currency": "EUR",
+          "amount": 1398
+        },
+        "is_debit": true,
+        "executed_at": "2025-04-17T17:25:12Z",
+        "description_params": [
+          {
+            "key": "merchant_name",
+            "value": "Example Supermarket"
+          }
+        ],
+        "description_tag": "operations.benefit_expense_label",
+        "voucher": {
+          "count": 1,
+          "amount": {
+            "currency": "EUR",
+            "amount": 1398
+          }
+        },
+        "merchant_name": "Example Supermarket",
+        "product_slug": "fringe-voucher-card",
+        "category_slug": "fringe"
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5,
+    "current_page": 1,
+    "results_per_page": 5
+  }
+}

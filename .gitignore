@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Test coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal data
+example-operations.json
+icon.png
+
+# Build artifacts
+*.zip

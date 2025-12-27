@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coverflex Downloader</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Coverflex Downloader</h1>
+
+    <div class="form-group">
+      <label for="fromDate">From</label>
+      <input type="date" id="fromDate">
+    </div>
+
+    <div class="form-group">
+      <label for="toDate">To</label>
+      <input type="date" id="toDate">
+    </div>
+
+    <div class="form-group">
+      <label class="toggle-label">
+        <input type="checkbox" id="includeTopups" checked>
+        <span>Include topups</span>
+      </label>
+    </div>
+
+    <div class="form-group">
+      <label class="toggle-label">
+        <input type="checkbox" id="includeRejected">
+        <span>Include rejected transactions</span>
+      </label>
+    </div>
+
+    <button id="downloadBtn" class="btn-primary">
+      <span class="btn-text">Download CSV</span>
+      <span class="btn-loading hidden">Downloading...</span>
+    </button>
+
+    <button id="downloadBudgetBakersBtn" class="btn-secondary">
+      <span class="btn-text">Download for BudgetBakers</span>
+      <span class="btn-loading hidden">Downloading...</span>
+    </button>
+
+    <div id="status" class="status hidden"></div>
+
+    <p class="hint">
+      Make sure you're logged in to
+      <a href="https://my.coverflex.com/benefits/activity" target="_blank">Coverflex</a>
+    </p>
+  </div>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>
