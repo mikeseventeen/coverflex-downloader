@@ -2,6 +2,9 @@
 
 Chrome extension to download Coverflex transactions as CSV files.
 
+![alt text](image.png)
+
+
 ## Download
 
 **[📥 Download Latest Release](https://github.com/ilbonte/coverflex-downloader/releases/latest)**
