@@ -9,7 +9,7 @@ Chrome extension to download Coverflex transactions as CSV files.
 ## Features
 
 - **Two CSV formats**: Standard (complete data) or BudgetBakers-optimized
-- **Flexible filtering**: Date range, topups, rejected transactions
+- **Flexible filtering**: Date range, transaction type (Welfare/Meal Vouchers), topups, rejected transactions
 - **Two ways to use**: Button on Coverflex page or extension popup
 - **Privacy-first**: All processing happens locally, no external servers
 
