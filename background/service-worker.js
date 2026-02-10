@@ -34,7 +34,6 @@ async function getToken() {
 }
 
 // Fetch operations from Coverflex API
-// Fetch operations from Coverflex API
 async function fetchOperations(fromDate, toDate) {
   const token = await getToken();
 
